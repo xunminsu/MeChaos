@@ -5,8 +5,8 @@ module.exports = {
   theme: 'vdoing', // 使用npm包主题
   // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
-  title: "Evan's blog",
-  description: 'web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。',
+  title: "MeChao's blog",
+  description: 'web开发技术博客,专注web开发学习与总结。Python, Django, Flask, JavaScript, Vue等技术文章。',
   base: '/MeChaos/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
 
   // 主题配置
@@ -145,15 +145,15 @@ module.exports = {
 
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
     author: {
-      name: 'xugaoyi', // 必需
+      name: 'suxunmin', // 必需
       link: 'https://github.com/xugaoyi', // 可选的
     },
 
     // 博主信息，显示在首页侧边栏
     blogger: {
       avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-      name: 'Evan Xu',
-      slogan: '前端界的小学生',
+      name: 'Chaos Su',
+      slogan: '端着茶杯的学生',
     },
 
     // 社交图标，显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social
