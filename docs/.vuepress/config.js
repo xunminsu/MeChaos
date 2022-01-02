@@ -2,6 +2,9 @@ const baiduCode = require('./config/baiduCode.js'); // 百度统计hm码
 const htmlModules = require('./config/htmlModules.js');
 
 module.exports = {
+  markdown: {
+    lineNumber: true  // 代码行数
+  },
   theme: 'vdoing', // 使用npm包主题
   // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
@@ -145,15 +148,15 @@ module.exports = {
 
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
     author: {
-      name: 'suxunmin', // 必需
-      link: 'https://github.com/xugaoyi', // 可选的
+      name: 'Chaos Su', // 必需
+      link: 'https://github.com/xunminsu/MeChaos', // 可选的
     },
 
     // 博主信息，显示在首页侧边栏
     blogger: {
-      avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
+      avatar: '/img/avatar.png',
       name: 'Chaos Su',
-      slogan: '端着茶杯的学生',
+      slogan: '端着茶杯的小菜鸡(✪ω✪)',
     },
 
     // 社交图标，显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social
@@ -163,26 +166,26 @@ module.exports = {
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:894072666@qq.com',
+          link: 'mailto:suxm0808@163.com',
         },
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/xugaoyi',
+          link: 'https://github.com/xunminsu',
         },
         {
           iconClass: 'icon-erji',
           title: '听音乐',
-          link: 'https://music.163.com/#/playlist?id=755597173',
+          link: 'https://music.163.com/playlist?id=7177077744',
         },
       ],
     },
 
     // 页脚信息
     footer: {
-      createYear: 2019, // 博客创建年份
+      createYear: 2018, // 博客创建年份
       copyrightInfo:
-        'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+        'Chaos Su | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
     },
 
     // 插入hmtl(广告)模块
@@ -196,7 +199,7 @@ module.exports = {
       'meta',
       {
         name: 'keywords',
-        content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
+        content: '个人技术博客',
       },
     ],
     ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
