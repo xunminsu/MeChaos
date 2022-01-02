@@ -154,7 +154,7 @@ module.exports = {
 
     // 博主信息，显示在首页侧边栏
     blogger: {
-      avatar: '/img/avatar.png',
+      avatar: '/MeChaos/img/avatar.png',
       name: 'Chaos Su',
       slogan: '端着茶杯的小菜鸡(✪ω✪)',
     },
